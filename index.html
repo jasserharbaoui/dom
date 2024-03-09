@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Shopping Cart</title>
+</head>
+<body>
+
+  <div id="cart">
+    <div class="item">
+        <img src="cos.jpg" alt="no pucture">
+      <span class="item-name">Costume</span>
+      <button class="quantity-btn" onclick="changeQuantity(1, -1)">-</button>
+      <span class="quantity" id="quantity1">1</span>
+      <button class="quantity-btn" onclick="changeQuantity(1, 1)">+</button>
+      <button class="like-btn" onclick="toggleLike(1)">❤️</button>
+      <button class="delete-btn" onclick="deleteItem(1)">Delete</button>
+      <span class="price">$10</span>
+    </div>
+    <!-- Add more items as needed -->
+
+    <div id="total">Total: $10</div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #cart {
+    width: 60%;
+    margin: 20px auto;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .quantity-btn,
+  .like-btn,
+  .delete-btn {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .price {
+    margin-left: auto;
+  }
+  
+  #total {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
